@@ -12,3 +12,8 @@ function mystery(a) {
     else return a[0];
 }
 ```
+
+This function finds the highest valued number by first recursively slicing the array until it only has one 
+element, and then it goes back up the recursive calls where the array was sliced with a different element at the 0th position, 
+and compares the foo element with the 0th element. In the first comparison foo is the last element of the original array and then it 
+becomes the highest valued number at that specific recursive call.
